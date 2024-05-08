@@ -69,7 +69,7 @@ var S2 = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED")
 print('S-2 collection size:', S2.size());
 
 // ========================================================================================
-// --------------------------- 3. DEFINE FUCTIONS -----------------------------------------
+// --------------------------- 3. DEFINE FUNCTIONS -----------------------------------------
 // ========================================================================================
 
 // Load the function to mask out clouds, their shadows and snow cover in Sentinel-2 images
